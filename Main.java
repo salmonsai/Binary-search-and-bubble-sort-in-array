@@ -52,8 +52,8 @@ public class Main {
         }
     }
 
-    public static void binary_search(int[] arr,int size) { // This function search elements in array by splitting
-        System.out.println("Enter the number from array to find it's index : ");
+    public static void binary_search(int[] arr,int size) { // This function search index value in array by splitting
+        System.out.println("Enter the value from array to find it's index : ");
         int key = sc.nextInt();
         int left = 0; // Left part of index array
         int right = size-1; // Right part of index array without last
